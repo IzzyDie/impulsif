@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-const White = require('./commands/white')
+const White = require('white')
 
 bot.on('ready', function () {
     bot.user.setAvatar('if.jpg')
